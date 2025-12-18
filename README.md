@@ -128,7 +128,7 @@ Les images générées par DOEK sont décrites comme :
 - **Développeur original** : Jan de Weille
 - **Tuteur IUT** : Éric Remy (IUT Aix-Marseille, site d'Arles)
 - **Groupe d'étudiants** : Licence professionnelle Système Informatique et Logiciel
-- **Institution de conservation** : PAMAL (Plateforme d'Archéologie du Matériel)
+- **Institution de conservation** : PAMAL (Preservation & Art - Media Archaeology Lab)
 
 ---
 
