@@ -1,4 +1,4 @@
-# 🎨 DOEK - Projet de conservation et restauration
+# DOEK - Projet de conservation et restauration
 
 **DOEK** (signifiant *chiffon* ou *tissu* en néerlandais) est un logiciel de modélisation 3D historique conçu spécifiquement pour l'artiste **Annie Abrahams** par Jan de Weille dans les années 1990.
 
