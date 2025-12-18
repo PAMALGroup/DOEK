@@ -150,7 +150,7 @@ Ce projet de conservation est mené à titre documentaire et archéologique. Pou
 
 ## 🌐 Ressources
 
-- [PAMAL Group](https://github.com/PAMALGroup) - Groupe de conservation du matériel numérique
+- [PAMAL Group](https://github.com/PAMALGroup) - Preservation & Art - Media Archaeology Lab
 - [FS-UAE](https://fs-uae.net/) - Émulateur Amiga utilisé pour la restauration
 - [AmigaOS](https://en.wikipedia.org/wiki/AmigaOS) - Système d'exploitation historique
 
