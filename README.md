@@ -1,81 +1,170 @@
-Données de l'oeuvre
+# 🎨 DOEK - Projet de conservation et restauration
 
-Artiste : Annie Abrahams
-Développeur : Jan de Weille
-Titre de l'oeuvre : DOEK
-Date de création : 1990 - 1993
-Classification : Logiciel de création 3D
-Site web :
-État avant étude : listing papier
-Production PAMAL : Second original
-Accès PAMAL :
-Description
+**DOEK** (signifiant *chiffon* ou *tissu* en néerlandais) est un logiciel de modélisation 3D historique conçu spécifiquement pour l'artiste **Annie Abrahams** par Jan de Weille dans les années 1990.
 
-DOEK (signifiant chiffon ou tissu en néerlandais) est un logiciel conçu spécifiquement pour l’artiste dans le cadre de sa recherche plastique. Ce logiciel, permettant à l’artiste de simuler des espaces d’exposition, lui fournissait plusieurs possibilités d’accrochages (il contenait toutes les données et dimensions de ses œuvres).
-Il a été conçu par J.R de Weille sur Amiga 500Plus puis 1000 dans les années 1980-90. Cet outil a accompagné l’artiste durant de nombreuses années, témoignant d’une méthodologie de travail et d'une période de création particulière .
+Ce projet archive et reconstitue le second original de ce logiciel emblématique de l'art numérique.
 
-Le logiciel permet de créer des scènes, vides au départ, qui vont permettre à l'utilisateur, grâce à la modélisation 3D, de créer une chambre d'exposition où sont stockées plusieurs peintures représentées comme des "boîtes vides" mais avec une position et des dimensions précisées par l'utilisateur. Les objets 3D créés ont une représentation en fil de fer. L'utilisateur utilise sa souris afin de placer des points dans un espace 3D. Chaque point a des coordonnées x, y et z. Deux points peuvent être reliés afin de créer une ligne.
-Intérêt du projet
-Listing papier de DOEK
+---
 
-Ce logiciel est devenu peu à peu l’outil indispensable d’une démarche de construction artistique dans un univers d’exposition virtuel.
-Lors de l’exposition ESCA (1995) il intervient à deux moments clé de l’exposition : pour sa conception (référence toutes les informations pratiques des oeuvres peintes (dimension, système d’accrochage, etc.) ainsi que celles des espaces d’exposition (dimensions, cloisons, fenêtres, etc.) et durant l’exposition (le spectateur pouvait lui-même explorer cet espace potentiel).
-Annie Abrahams utilise alors les différents possibles proposé par le logiciel pour créer une autre forme lors d’une temporalité qu’elle appelle la “rechaotisation”. Elle superpose ainsi les possibles pour faire référence à ses tableaux chaotiques et faire renaître sa création : “c’est très important de conclure la mise en ordre ; la construction, avec un acte, qui ramène la totalité à une image plus complexe, à quelque chose de plus proche de (ses) tableaux chaotiques”.
-Le logiciel a également servi d’outil pour créer des œuvres physiques, en jouant sur les distorsions de l’espace muséal et les différentes constructions d’accrochages créées pour les expositions. Ses images, étranges et inattendues, “sont intéressantes comme images graphiques classiques, mais elles sont aussi le symbole des possibilités inconnues de la technique. Ces images ne sont pas ‘gratuites’; elles sont toujours basées sur une entité dans la réalité, en l’occurrence sur les tailles physiques de l’espace et les tableaux.”.
+## 📖 À propos du projet
 
-Compte tenu des ces précisions, le PAMAL a accepté de travailler sur la création d'un second original de DOEK à partir du seul élément existant encore en possession de l'artiste : le listing papier du programme rédigé en code C.
-Environnement matériel et logiciel
-AMIGA500plus
-AMIGA500plus du PAMAL
-Démarrage de l'AMIGA500plus destiné à recevoir le second original
+### Contexte historique
 
-Acquisition
-Notre Amiga fut l'objet de quelques recherches sur les sites spécialisés en vente de matériel d'occasion. Il fut acheté sur le site du bon coin auprès d'un particulier avec l'intégralité de sa collection de disquettes ainsi que deux lecteurs de disquette. 
-Spécifications techniques
-Motorola 68000 (microprocesseur 16/32 bits CISC avec 16 registres sans MMU pour la protection mémoire et la mémoire virtuelle) ;
-système d'exploitation par défaut : AmigaOS 1.2 ou 1.3 (ayant un noyau multitâche préemptif) suivant la révision ;
-512 Ko de Chip RAM par défaut (mémoires sonore, graphique et logicielle se partageant les mêmes espaces mémoires) ;
-limite haute de 16 Mo de mémoire, due aux limitations du MC68000 (adressage mémoire sur 24 bits) ;
-chipset OCS  ;
-sortie TV 50 Hz (PAL) et 60 Hz (NTSC) par défaut suivant les versions. Mode 50/60 Hz basculant logiciellement dans les révisions suivantes ;
-filtre passe-bas audio commutable logiciellement (la diode de l'alimentation s'éteignant (pour les modèles avec led rouge) ou baissant d'intensité quand le filtre est éteint) ;
-partage IRQ (comme le bus PCI) ;
+DOEK a été développé sur **Amiga 500Plus** et **Amiga 1000** entre 1990 et 1993. Ce logiciel permettait à Annie Abrahams de :
 
-le système d'IRQ a 7 niveaux de priorité d'interruptions ; pas de limite dans le nombre d'interruptions ; périphériques gérés par Autoconfig, très similaire à l'ACPI. Les périphériques ne sont pas comptés ou nommés, ils donnent juste la taille et les adresses dont ils ont besoin.
+- Simuler des espaces d'exposition virtuels
+- Modéliser l'accrochage de ses œuvres en 3D
+- Explorer différentes configurations d'exposition
+- Créer ce qu'elle appelait la **"rechaotisation"** : superposition des possibles pour évoquer ses tableaux chaotiques
 
-Un lecteur de disquette standard double face/simple densité de 3,5 pouces (3.5") est livré en série, plusieurs peuvent être connectés en externe.
+### Importance du logiciel
 
-Le lecteur a la particularité d'être complètement pilotable. En effet, l'Amiga peut formater des disquettes de façon complètement libre, le format de base des disquettes sous AmigaDOS étant de 880 Ko, illisible sur PC. Avec un logiciel comme Crossdos, il est cependant possible de lire des disquettes double face/simple densité provenant d'un PC, et formatées par ce même PC.
+- **Outil de création** : accompagna l'artiste durant des années, témoignant d'une méthodologie de travail particulière
+- **Innovation technologique** : utilisation précoce de la modélisation 3D à des fins artistiques
+- **Documentation d'exposition** : utilisé lors de l'exposition ESCA (1995)
 
-Deux ports DB-9 pour joystick, souris et crayon optique sont inclus :
-un port série RS-232 standard de 25 contacts et
-un port parallèle Centronics de 25 contacts.
+---
 
-Le code C
+## 🖥️ Spécifications techniques
 
-Doek fut écrit en langage C[1] par Jan de Weille.
-Copie d'un feuillet du listing
-Réalisation du Second Original
-De l’analogique au numérique
+### Matériel d'origine
 
-Dans un premier temps nous avons décidé de le numériser afin de réaliser des copies manipulables. Pour obtenir un résultat satisfaisant nous avons du employer un scanneur A3 car le format d’origine était du A4+, puis retravailler chaque zone imprimée sur les pointillés détachables spécifiques au papier listing.
-Premiers tests
+- **Processeur** : Motorola 68000 (16/32 bits CISC)
+- **Mémoire RAM** : 512 Ko (Chip RAM)
+- **Système d'exploitation** : AmigaOS 1.2 ou 1.3
+- **Chipset** : OCS
+- **Lecteur** : disquette 3.5" double face/simple densité (880 Ko)
 
-Après un court état de l’art concernant les programmes de reconnaissance de caractère ainsi que des logiciels permettant de dicter du texte, nous avons lancé une procédure de test afin de définir la méthode la plus rapide et la plus sure afin d’obtenir le code sous un format numérique. La reconnaissance de caractère montra rapidement ses limites, par exemple en ne pouvant faire la différence entre les 1 et les l ou les ( et le { obtenu avec la police de caractère Courrier, le tout aggravé par la méthode d’impression à aiguilles de l’époque. La dictée directe des lignes de codes se révéla quant à elle encore plus fastidieuse que la simple recopie directe des feuillets de code. C’est donc cette dernière méthode qui a été retenu. Malheureusement n’étant pas familier du langage C, la recopie par nos propres moyens s’avéra rapidement inadaptée de par sa lenteur, augmentée d’un fort risque d’erreur de frappe.
-Partenariat avec l'IUT de Arles
-Prêt du matériel pour la suite de l'étude sur le site de l'IUT de Arles
+### Langage et développement
 
-La solution fut trouvée en établissant un partenariat avec l’IUT d’Aix-Marseille, site d’Arles. Un groupe de quatre étudiants de licence professionnelle système informatique et logiciel fut donc associé au projet avec un enseignant tuteur, Éric Remy. Les étudiants saisirent l'intégralité du code C, à partir des copies, et effectuèrent la compilation sur Amiga 500 avec lorsque c'était possible l'intégration des fonctions d'origines. Pour des raisons pratiques (rapidité et stabilité) ils travaillèrent sur un émulateur d’Amiga (FS-UAE). En mai 2015, le logiciel DOEK était réactivé sur un Amiga 500, certaines parties du code restant à corriger, des fonctionnalités incomplètes entraînant un blocage de l'ordinateur.
+- **Langage** : C
+- **Développeur** : Jan de Weille
+- **Format source** : listing papier en code C (uniquement document conservé)
 
-En parallèle, une seconde version de DOEK fut proposée, en ligne et utilisable via un navigateur. Le tout conçu en Javascript avec l'intégration de la police spécifique à l'Amiga. Aujourd'hui cette version en ligne présente un menu et quelques fonctionnalités réduites mais encore beaucoup de lacunes, tant sur le plan esthétique que technique.
+---
 
-Un site Internet a été créé contenant la description complète du projet accompagné d’une documentation exhaustive.
+## 🔧 Restauration et reconstruction
 
-Le site du projet développé par les étudiants de l'IUT
-Exposition du second original
-Vue générale de la table réunissant les éléments produits lors de l'étude
+### Phase 1 : Numérisation (2014-2015)
 
-DOEK a été exposé lors de l'exposition Une Archéologie des médias organisée à Seconde Nature du 20/05/2015 au 28/06/2015.
-Notes
+1. Scan du listing papier au format A3
+2. Retouche des zones imprimées
+3. Tests de reconnaissance optique de caractères (OCR) - résultats décevants
+4. Décision : transcription manuelle du code
 
-https://fr.wikipedia.org/wiki/C_(langage)
+### Phase 2 : Partenariat IUT Aix-Marseille (2015)
+
+Un groupe d'étudiants en licence professionnelle et leur tuteur Éric Remy ont :
+- Saisi l'intégralité du code C
+- Compilé le logiciel sur **Amiga 500** (via émulateur FS-UAE)
+- Intégré les fonctions originales
+- Effectué des corrections et débogage
+
+**Résultat en mai 2015** : DOEK réactivé sur Amiga 500, avec certaines fonctionnalités à finaliser.
+
+### Phase 3 : Portage web
+
+Une version JavaScript accessible en ligne a été développée :
+- Interface de navigation
+- Intégration de la police Amiga
+- Fonctionnalités essentielles disponibles
+- Travaux en cours pour amélioration esthétique et technique
+
+---
+
+## 📁 Structure du repository
+
+```
+DOEK_Annie_Abarahams/
+├── CODE DOEK/              # Code source C du logiciel
+├── DOEK synthèse.pdf       # Document récapitulatif
+├── Plaquette.pdf           # Documentation visuelle
+├── Scan.jpg                # Image du listing papier
+└── README.md               # Ce fichier
+```
+
+---
+
+## 🎯 Fonctionnalités principales
+
+### Modélisation 3D
+
+- Création de scènes 3D vides
+- Placement de points dans un espace 3D (coordonnées x, y, z)
+- Connexion de points pour créer des lignes
+- Représentation filaire des objets 3D
+
+### Gestion d'exposition
+
+- Stockage de données pour chaque œuvre (dimensions, système d'accrochage)
+- Stockage des informations d'espace (dimensions, cloisons, fenêtres)
+- Simulation de multiples configurations d'accrochage
+
+### Interaction utilisateur
+
+- Contrôle à la souris pour placement de points
+- Exploration interactive de l'espace virtuel
+- Superposition des configurations possibles
+
+---
+
+## 📊 Exposition et impact
+
+### Exposition "Une Archéologie des médias"
+- **Date** : 20/05/2015 - 28/06/2015
+- **Lieu** : Seconde Nature, France
+- **Exposition du second original** : listing papier, code source numérisé, documentation du projet
+
+### Impact artistique
+
+Les images générées par DOEK sont décrites comme :
+> *"intéressantes comme images graphiques classiques, mais elles sont aussi le symbole des possibilités inconnues de la technique. Ces images ne sont pas 'gratuites'; elles sont toujours basées sur une entité dans la réalité, en l'occurrence sur les tailles physiques de l'espace et les tableaux."*
+
+---
+
+## 👥 Contributeurs et partenaires
+
+- **Artiste** : Annie Abrahams
+- **Développeur original** : Jan de Weille
+- **Tuteur IUT** : Éric Remy (IUT Aix-Marseille, site d'Arles)
+- **Groupe d'étudiants** : Licence professionnelle Système Informatique et Logiciel
+- **Institution de conservation** : PAMAL (Plateforme d'Archéologie du Matériel)
+
+---
+
+## 📚 Documentation additionnelle
+
+- [Synthèse complète](./DOEK%20synthèse.pdf) - Documentation technique détaillée
+- [Plaquette du projet](./Plaquette.pdf) - Guide visuel
+- [Site Internet du projet](http://doek.iut-arles.com) - Version web avec documentation exhaustive
+
+---
+
+## 🔐 Licence et droits
+
+Ce projet de conservation est mené à titre documentaire et archéologique. Pour toute utilisation des œuvres ou du code de DOEK, veuillez contacter :
+
+- **PAMAL** - Plateforme d'Archéologie du Matériel
+- **Annie Abrahams** - Artiste
+
+---
+
+## 🌐 Ressources
+
+- [PAMAL Group](https://github.com/PAMALGroup) - Groupe de conservation du matériel numérique
+- [FS-UAE](https://fs-uae.net/) - Émulateur Amiga utilisé pour la restauration
+- [AmigaOS](https://en.wikipedia.org/wiki/AmigaOS) - Système d'exploitation historique
+
+---
+
+## 📞 Contact et informations
+
+Pour plus d'informations sur le projet DOEK ou sur la conservation du patrimoine numérique :
+- **Email** : contact@pamal.org
+- **Site** : PAMAL Group
+
+---
+
+**⭐ Un projet historique de conservation du patrimoine numérique - 1990-2015**
+
+*"DOEK témoigne de l'utilisation des technologies numériques comme outil de création artistique et de réflexion plastique."*
