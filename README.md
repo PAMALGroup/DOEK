@@ -136,15 +136,14 @@ Les images générées par DOEK sont décrites comme :
 
 - [Synthèse complète](./DOEK%20synthèse.pdf) - Documentation technique détaillée
 - [Plaquette du projet](./Plaquette.pdf) - Guide visuel
-- [Site Internet du projet](http://doek.iut-arles.com) - Version web avec documentation exhaustive
-
+- 
 ---
 
 ## 🔐 Licence et droits
 
 Ce projet de conservation est mené à titre documentaire et archéologique. Pour toute utilisation des œuvres ou du code de DOEK, veuillez contacter :
 
-- **PAMAL** - Plateforme d'Archéologie du Matériel
+- **PAMAL_Group** - Preservation & Art - Media Archaeology Lab
 - **Annie Abrahams** - Artiste
 
 ---
@@ -161,7 +160,7 @@ Ce projet de conservation est mené à titre documentaire et archéologique. Pou
 
 Pour plus d'informations sur le projet DOEK ou sur la conservation du patrimoine numérique :
 - **Email** : contact@pamal.org
-- **Site** : PAMAL Group
+- **Site** : [PAMAL Group](https://pamal.org)
 
 ---
 
